@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">New Location Serivices</string>
+    <string name="LATITUDE">LATITUDE</string>
+    <string name="outlatitude">outlatitude</string>
+    <string name="LONGITUDE">LONGITUDE</string>
+    <string name="ALTITUDE">ALTITUDE</string>
+    <string name="ACCURACY">ACCURACY</string>
+    <string name="SPEED">SPEED</string>
+    <string name="SENSOR">SENSOR</string>
+    <string name="UPDATES">UPDATES</string>
+    <string name="outlongitude">outlongitude</string>
+    <string name="outaltitude">outaltitude</string>
+    <string name="outaccuracy">outaccuracy</string>
+    <string name="outspeed">outspeed</string>
+    <string name="outsensor">outsensor</string>
+    <string name="outupdate">outupdate</string>
+    <string name="locationupdates">TURN ON LOCATION UPDATES</string>
+    <string name="turn_on_location_updates">TURN ON LOCATION UPDATES</string>
+    <string name="turn_off_location_updates">TURN OFF LOCATION UPDATES</string>
+    <string name="switch_to_balanced_power">SWITCH TO BALANCED POWER</string>
+    <string name="switch_to_gps">SWITCH TO GPS</string>
+    <string name="gpsonandoff">gpsonandoff</string>
+    <string name="serviceenabler">serviceenabler</string>
+    <string name="enable_live_location_notification">Enable Live Location Notification</string>
+    <string name="disable_live_location_notification">Disable Live Location Notification</string>
+    <string name="title_activity_location_on_map">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="location">LOCATION ON MAP</string>
+
+
+</resources>

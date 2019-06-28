@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="237dp"
+        android:text="@string/SPEED" />
+
+    <TextView
+        android:id="@+id/tvaccuracy"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="193dp"
+        android:layout_marginEnd="102dp"
+        android:text="@string/outaccuracy" />
+
+    <TextView
+        android:id="@+id/tvspeed"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="234dp"
+        android:layout_marginEnd="102dp"
+        android:text="@string/outspeed" />
+
+    <TextView
+        android:id="@+id/tvsensor"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="287dp"
+        android:layout_marginEnd="102dp"
+        android:text="@string/outsensor" />
+
+    <TextView
+        android:id="@+id/tvlupdate"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="326dp"
+        android:layout_marginEnd="102dp"
+        android:text="@string/outupdate" />
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="86dp"
+        android:text="@string/LONGITUDE" />
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="39dp"
+        android:text="@string/LATITUDE" />
+
+    <TextView
+        android:id="@+id/sensor"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="284dp"
+        android:text="@string/SENSOR" />
+
+    <TextView
+        android:id="@+id/tvlatitude"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="102dp"
+        android:text="@string/outlatitude" />
+
+    <TextView
+        android:id="@+id/tvlongitude"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="101dp"
+        android:text="@string/outlongitude" />
+
+    <TextView
+        android:id="@+id/tvaltitude"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="101dp"
+        android:text="@string/outaltitude" />
+
+    <TextView
+        android:id="@+id/ALTITUDE"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="135dp"
+        android:text="@string/ALTITUDE" />
+
+    <TextView
+        android:id="@+id/accuracy"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="190dp"
+        android:text="@string/ACCURACY" />
+
+    <TextView
+        android:id="@+id/updates"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="326dp"
+        android:text="@string/UPDATES" />
+
+    <ToggleButton
+        android:id="@+id/tvlocationonoff"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvlupdate"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-9dp"
+        android:layout_marginEnd="-102dp"
+        android:layout_marginBottom="68dp"
+        android:text="@string/locationupdates"
+        android:textOff="@string/turn_on_location_updates"
+        android:textOn="@string/turn_off_location_updates" />
+
+    <ToggleButton
+        android:id="@+id/tvgps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="124dp"
+        android:text="@string/gpsonandoff"
+        android:textOff="@string/switch_to_gps"
+        android:textOn="@string/switch_to_balanced_power" />
+
+    <Button
+        android:id="@+id/locationonmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="11dp"
+        android:text="@string/location" />
+
+</RelativeLayout>
